@@ -85,14 +85,6 @@ public class UserCommandProcessor implements IBirdCreator, IInfiniteLoopProcesso
         switch (command) {
             case "a":
                 createBird(userInputReader);
-//                System.out.println("Please, enter bird name:   ");
-//                String name = consoleInputReader.nextLine();
-//                System.out.println("Please, enter bird living area:  ");
-//                String living_area = consoleInputReader.nextLine();
-//                System.out.println("Please, enter bird size:  ");
-//                Double size = consoleInputReader.nextDouble();
-//                Bird bird = new Bird(name, living_area, size);
-//                BirdStore.birdStore().addBird(bird);
                 break;
             case "s":
                 System.out.println("Please, enter bird name to search -> ");
